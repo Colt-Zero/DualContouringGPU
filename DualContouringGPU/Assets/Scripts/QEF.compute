@@ -1,0 +1,6 @@
+﻿#pragma kernel CSMain
+
+[numthreads(8,8,8)]
+void CSMain (int3 id : SV_DispatchThreadID)
+{
+}
